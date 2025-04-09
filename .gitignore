@@ -13,4 +13,4 @@ mental-health-frontend/.env
 mental-health-frontend/dist/
 
 Project-Assets/
-.ipynb_checkpoints/
+.ipynb_checkpoints

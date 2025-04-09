@@ -1,0 +1,117 @@
+/* styles/Home.css */
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body.light-theme {
+    --bg-color: #f5f5f5;
+    --text-color: #1e1e1e;
+    --card-color: rgba(255, 255, 255, 0.1);
+    --card-text: #1c1f2b;
+  }
+  
+  body.dark-theme {
+    --bg-color: rgb(28, 31, 43);
+    --text-color: white;
+    --card-color: #2e3244;
+    --card-text: #f0f0f0;
+  }
+  
+  .page-header-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-bottom: -2rem;
+  }
+  
+  .page-header-centered header {
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+  }
+  
+  .page-header-centered img {
+    height: 100px;
+    width: auto;
+  }
+  
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    padding: 1rem 2rem;
+    text-align: center;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  
+  .home-card {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    max-width: 400px;
+    margin: 3rem auto;
+    padding: 20px 30px;
+    background: var(--card-color);
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+    color: var(--card-text);
+    box-sizing: border-box;
+  }
+  
+  .home-card h2 {
+    font-size: 24px;
+    color: #ff9a9e;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .home-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .home-card button {
+    margin-top: 10px;
+    padding: 12px;
+    width: 100%;
+    background: linear-gradient(135deg, #ff9a9e, #6a11cb);
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .home-card button:hover {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 480px) {
+    .home-card {
+      padding: 15px 20px;
+    }
+  
+    .home-card h2 {
+      font-size: 20px;
+    }
+  
+    .home-card p,
+    .home-card button {
+      font-size: 14px;
+    }
+  }
+  

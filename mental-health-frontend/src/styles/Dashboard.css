@@ -1,0 +1,129 @@
+.dashboard-container {
+    padding: 10px 2rem;
+    font-family: "Segoe UI", sans-serif;
+    background-color: rgb(28, 31, 43);
+    min-height: 100vh;
+    color: white;
+  }
+  
+  .dashboard-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 10px;
+    font-size: 2rem;
+    color: white;
+  }
+  
+  .recommendation-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .recommendation-card {
+    background-color: #2e3244;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+  }
+  
+  .collapsible summary {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: #f0f0f0;
+  }
+  
+  .section {
+    margin-top: 1rem;
+  }
+  
+  .section h3 {
+    margin-bottom: 0.4rem;
+    font-size: 1rem;
+    color: #e1e1e1;
+  }
+  
+  .section ul {
+    list-style: none;
+    padding-left: 1rem;
+  }
+  
+  .section li {
+    padding: 0.25rem 0;
+    color: #ccc;
+  }
+  
+  .music-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 0.5rem;
+  }
+  
+  .music-card {
+    background-color: #3c425b;
+    border-radius: 0.75rem;
+    padding: 0.5rem;
+    font-size: 0.85rem;
+    text-align: center;
+    color: #f9f9f9;
+  }
+  
+  .genre {
+    font-style: italic;
+    font-size: 0.75rem;
+    color: #aaa;
+  }
+  
+  .add-sentiment-section {
+    margin-top: 3rem;
+    padding: 1rem;
+  }
+  
+  .add-sentiment-section textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid #555;
+    margin-bottom: 0.75rem;
+    background-color: #2e3244;
+    color: white;
+  }
+  
+  .add-sentiment-section button {
+    padding: 0.5rem 1rem;
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .logout-btn {
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .header {
+    background-color: rgb(28, 31, 43);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .logo {
+    height: 40px;
+    width: auto;
+  }
+  

@@ -1,0 +1,15 @@
+# Ignore Python and FastAPI stuff
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.env
+
+# Node/Vite stuff
+mental-health-frontend/node_modules/
+mental-health-frontend/.env
+mental-health-frontend/dist/
+
+Project-Assets/
